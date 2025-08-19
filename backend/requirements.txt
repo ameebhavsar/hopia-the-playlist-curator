@@ -1,0 +1,7 @@
+spotipy  #if we decide to use spotipy api
+fastapi #for api calls
+uvicorn[standard] #for running the server
+python-dotenv  #for env variables
+httpx  #for http requests
+pydantic  #for data validation
+

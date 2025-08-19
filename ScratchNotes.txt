@@ -1,0 +1,5 @@
+1. for Backend SERVER:
+    FastAPI is running on 127.0.0.1:8000
+
+2. for AUTH: 
+    we want the user to login once only. We can use refresh tokens
