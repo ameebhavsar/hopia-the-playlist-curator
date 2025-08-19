@@ -1,12 +1,14 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 from backend.routes import health, weather
 
 
 # Load environment variables from .env file
-load_dotenv()
+from utils import settings
+
+#load_dotenv()
 
 # Create FastAPI instance
 app = FastAPI()
